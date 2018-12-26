@@ -1,7 +1,7 @@
 {
   "name": "d3-tip-0.6.7",
   "groupId": "",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "modelVersion": "10.0.0",
   "docType": "webpackage",
   "author": {
@@ -32,9 +32,14 @@
         "artifactId": "d3-tip",
         "description": "Utility to use the d3-tip library v 0.6.7 This is recommended for you use with webcomponents.",
         "resources": [
-          "d3-tip.js"
+          "d3-tip.html"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "webpackageId": "d3-3.5.3@2.0.0",
+            "artifactId": "d3"
+          }
+        ]
       }
     ]
   }
